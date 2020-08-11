@@ -1,3 +1,3 @@
-package jwt
+package lib
 
 func main() {}

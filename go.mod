@@ -1,4 +1,4 @@
-module lib
+module github.com/pineappleworkshop/lib
 
 go 1.14
 

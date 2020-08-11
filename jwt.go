@@ -1,4 +1,4 @@
-package jwt
+package main
 
 import (
 	"fmt"
@@ -9,12 +9,6 @@ import (
 	"github.com/dgrijalva/jwt-go"
 	"github.com/labstack/echo"
 	"github.com/labstack/echo/middleware"
-)
-
-// envs vars
-const (
-	ENV_FROM = "LD_FROM"
-	ENV_TO   = "LD_TO"
 )
 
 // types for jwtCustomMiddleware
